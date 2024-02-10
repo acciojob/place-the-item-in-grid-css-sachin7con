@@ -2,8 +2,9 @@
 /* ONS Your CSS Code here. */
 .holder{
 	width:200px;
+	height:200px;
 	display:grid;
-	grid-template-columns:repeat(2, 100px);
-	grid-template-rows:repeat(2, auto);
+	grid-template-columns:repeat(2, 1fr);
+	grid-template-rows:repeat(2, 1fr);
 	border: 2px solid aquamarine;
 }
